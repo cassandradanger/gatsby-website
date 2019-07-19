@@ -72,6 +72,10 @@ const HomepageWrapper = styled.div`
     margin: 0 auto 60px auto;
     max-width: 90%;
   }
+  a{
+    color: black !important;
+    text-decoration: none;
+  }
   ${t.LargeP} {
     margin-bottom: 28px;
   }
@@ -146,24 +150,20 @@ class Homepage extends React.Component {
           <AboveFold>
             <Img fluid={data.avatarHomepage.childImageSharp.fluid} alt="Name Surname" className="avatar" />
             <t.H1 primary align="center">
-              Name Surname
+              Casie Siekman
             </t.H1>
             <t.LargeP align="center" max45>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              This is stuff about me
             </t.LargeP>
-            <HireMe large onClick={this.openContactPopup} book>
-              Hire me
+            <HireMe book>
+              <a href="mailto:casie.siekman@gmail.com">
+                want me to speak at your event?
+              </a>
             </HireMe>
           </AboveFold>
           <Content>
-            <t.H2 primary align="center" bold>
-              Lorem ipsum
-            </t.H2>
-            <t.P align="center" max70 className="who-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </t.P>
             <t.H2 primary align="center" bold className="portfolio">
-              Portfolio
+              Experience
             </t.H2>
           </Content>
           <Block>
