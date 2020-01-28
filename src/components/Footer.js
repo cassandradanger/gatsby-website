@@ -19,8 +19,8 @@ const Footer = ({ big, medium }) => (
   <FooterWrapper {...big && { big }} {...medium && { medium }}>
     <Content>
       <Copyright white align="center">
-      <img src="https://boardgamegeek.com/jswidget.php?username=CassandraDanger&numitems=5&header=1&text=title&images=small&show=recentplays&imagesonly=1&imagepos=right&showplaydate=1&domains%5B%5D=boardgame&imagewidget=1" border="0"/>
-        © Name Surname 2019. All rights reserved.
+      <img src="https://boardgamegeek.com/jswidget.php?username=CassandraDanger&numitems=5&header=1&text=title&images=small&show=recentplays&imagesonly=1&imagepos=right&inline=1&addstyles=1&showplaydate=1&domains%5B%5D=boardgame&imagewidget=1" border="0"/>        
+      © Casie Siekman 2020. All rights reserved.
       </Copyright>
     </Content>
   </FooterWrapper>
