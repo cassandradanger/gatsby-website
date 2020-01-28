@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import * as Mixins from '../Mixins';
 import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
-import Placeholder from '../images/placeholder.png';
+import CompFront from '../images/comp_front.jpg';
+import CompBack from '../images/comp_back.jpg';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -171,16 +172,15 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={CompFront} alt="image of my computer with stickers" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Hey look!</t.H2>
+                <t.P>This is the top of my computer</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  href="www.google.com">
+                  this link goes to google - click it if you need google
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -188,54 +188,20 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Hey look again!</t.H2>
+                <t.P>This is the bottom of my computer</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
                   href="#">
-                  Lorem ipsum
+                  this link goes to my other personal website...it has not been updated in a while
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={CompBack} alt="image of the bottom of my computer w stickers" />
               </DivWrapper>
             </BlockContent>
           </Block>
-          <Block>
-            <BlockContent>
-              <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
-              </DivWrapper>
-              <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
-                </LinkButton>
-              </DivWrapper>
-            </BlockContent>
-          </Block>
-          <Block>
-            <BlockContent>
-              <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
-                </LinkButton>
-              </DivWrapper>
-              <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
-              </DivWrapper>
-            </BlockContent>
-          </Block>
+          
           <WorkWithMe>
             <t.H1 green>Get in touch with me</t.H1>
             <t.LargeP>
