@@ -192,7 +192,7 @@ class Homepage extends React.Component {
                 <t.P>This is the bottom of my computer</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
-                  href="#">
+                  href="www.casiesiekman.com">
                   this link goes to my other personal website...it has not been updated in a while
                 </LinkButton>
               </DivWrapper>
