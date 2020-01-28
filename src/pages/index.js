@@ -164,6 +164,7 @@ class Homepage extends React.Component {
           <Content>
             <t.H2 primary align="center" bold className="portfolio">
               Experience
+              <br/>
               <img class="center" src="https://boardgamegeek.com/jswidget.php?username=CassandraDanger&numitems=5&header=1&text=title&images=small&show=recentplays&imagesonly=1&imagepos=right&inline=1&addstyles=1&showplaydate=1&domains%5B%5D=boardgame&imagewidget=1" border="0"/>
             </t.H2>
           </Content>
