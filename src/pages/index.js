@@ -180,7 +180,7 @@ class Homepage extends React.Component {
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
                   href="about-me">
-                  this link also goes to the about page
+                  this link goes to the about page
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
