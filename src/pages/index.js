@@ -179,8 +179,8 @@ class Homepage extends React.Component {
                 <t.P>This is the top of my computer</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
-                  href="www.google.com">
-                  this link goes to google - click it if you need google
+                  href="about-me">
+                  this link also goes to the about page
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -192,8 +192,8 @@ class Homepage extends React.Component {
                 <t.P>This is the bottom of my computer</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
-                  href="www.casiesiekman.com">
-                  this link goes to my other personal website...it has not been updated in a while
+                  href="about-me">
+                  this link also goes to the about page
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
